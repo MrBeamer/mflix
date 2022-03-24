@@ -1,0 +1,35 @@
+:root {
+  --background-color: #10141e;
+  --main-color: #161d2f;
+  --highlight-color: #fc4747;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}

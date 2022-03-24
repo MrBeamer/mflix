@@ -1,0 +1,45 @@
+.nav {
+  height: 70px;
+  width: 100vw;
+  padding: 0 35px;
+  background-color: #161d2f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.list {
+  margin-left: 75px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.item {
+  margin-right: 40px;
+}
+
+.item:last-child {
+  margin-right: 0;
+}
+
+.search {
+  width: 220px;
+  padding-left: 35px;
+  margin-right: 25px;
+  border-radius: 0;
+  border: none;
+  height: 25px;
+}
+
+.imgContainer {
+  position: absolute;
+  top: 8px;
+  left: 4px;
+}
