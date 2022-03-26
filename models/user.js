@@ -4,12 +4,15 @@ const UserSchema = new mongoose.Schema({
   email: {
     required: true,
     type: String,
+    unique: true,
+    index: true,
+    dropDups: true,
   },
   password: {
     required: true,
     type: String,
   },
-  movies: {
+  watchlist: {
     type: Array,
   },
 });

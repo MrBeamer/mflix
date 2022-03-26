@@ -59,7 +59,7 @@ export default function Signup() {
         <input
           id="email"
           className={styles.input}
-          type="text"
+          type="email"
           placeholder="Email address"
           name="email"
         ></input>
